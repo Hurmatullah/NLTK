@@ -1,4 +1,5 @@
-from nltk import *
-from nltk.book import texts
+from nltk import book
 
-print(texts())
+# Searching a text
+searchingText = book.text2.concordance("affection")
+print(searchingText)
