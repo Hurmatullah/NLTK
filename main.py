@@ -13,8 +13,25 @@ from nltk import book
 # print("Occurance number of a term:", book.text1.count('Moby'))
 
 # Calculation for more texts
-def lexical_diversity(text):
-    return len(set(text)) / len(text)
+# def lexical_diversity(text):
+#     return len(set(text)) / len(text)
+#
+# def percentage(count, total):
+#     return 100 * count / total
 
-def percentage(count, total):
-    return 100 * count / total
+# Creating a list in NLTK
+# sents1 = ['call', "me", "Ishmael"]
+# print(sents1[0])
+
+# Indexing our list using python
+# sents1 = book.text1.index('and')
+# print(sents1)
+
+#Joining two string using python
+# joinTexts = ['hey', 'hurmat']
+# print(' '.join(joinTexts))
+
+
+
+
+
