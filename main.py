@@ -1,5 +1,4 @@
 from nltk import book
 
-# Searching a text
-searchingText = book.text2.concordance("affection")
-print(searchingText)
+# Printing the lenght of the vocabulary
+print("Length of vocabulary", len(book.text1))
