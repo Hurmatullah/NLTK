@@ -31,7 +31,10 @@ from nltk import book
 # joinTexts = ['hey', 'hurmat']
 # print(' '.join(joinTexts))
 
-
+# Showing most frequent terms in text1
+# fds = book.FreqDist(book.text1)
+# most_common = fds.most_common(50)
+# print(most_common)
 
 
 
