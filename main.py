@@ -8,3 +8,13 @@ from nltk import book
 
 # Showing the how much distinct terms we have
 # print("Distinct terms in our vocabulary", len(set(book.text1)) / len(book.text1))
+
+# Counting the terms that occured in our specified text
+# print("Occurance number of a term:", book.text1.count('Moby'))
+
+# Calculation for more texts
+def lexical_diversity(text):
+    return len(set(text)) / len(text)
+
+def percentage(count, total):
+    return 100 * count / total
