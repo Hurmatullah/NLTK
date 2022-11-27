@@ -36,5 +36,9 @@ from nltk import book
 # most_common = fds.most_common(50)
 # print(most_common)
 
+# printing the number of sample in our sample using N()
+Fdist = book.FreqDist(book.text1)
+print(Fdist.N())
+
 
 
