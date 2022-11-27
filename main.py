@@ -69,6 +69,22 @@ import matplotlib.pyplot as plt
 # hey = len([set(word.lower()) for word in book.text1])
 # print(hey)
 
+#printing the list of terms that is non alfa in our sample
+# noneAlfaTerms = len([set(word.lower()) for word in book.text1 if word.isalpha()])
+# print(noneAlfaTerms)
+
+#Adding the condition for our code to check whether is title or lower or upper
+# texts = book.text1
+# for text in texts:
+#     if text.islower():
+#         print("This text is lower")
+#     elif text.istitle():
+#         print("This text is title")
+#     elif text.isupper():
+#         print("This text is upper")
+#     else:
+#         print("This is punctuation")
+
 
 
 
