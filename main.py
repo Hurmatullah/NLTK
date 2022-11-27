@@ -1,4 +1,5 @@
 from nltk import book
+import matplotlib.pyplot as plt
 
 # Printing the lenght of the vocabulary
 # print("Length of vocabulary", len(book.text1))
@@ -52,8 +53,17 @@ from nltk import book
 # fdist = book.FreqDist(book.text1)
 # print((fdist.keys()))
 
+# fdist = book.FreqDist(book.text1)
+# for samples in fdist:
+#     print(samples)
 
+# Print data with tabulate form
+# fdist = book.FreqDist(book.text1)
+# print(fdist.tabulate())
 
+# Ploting our sample using matplotlib
+# fdist = book.FreqDist(book.text1)
+# fdist.plot()
 
 
 
