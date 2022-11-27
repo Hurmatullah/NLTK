@@ -65,6 +65,20 @@ import matplotlib.pyplot as plt
 # fdist = book.FreqDist(book.text1)
 # fdist.plot()
 
+# Printing the length of our sample and print the length of that
+# hey = len([set(word.lower()) for word in book.text1])
+# print(hey)
+
+
+
+
+
+
+
+
+
+
+
 
 
 
