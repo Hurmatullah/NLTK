@@ -37,8 +37,25 @@ from nltk import book
 # print(most_common)
 
 # printing the number of sample in our sample using N()
-Fdist = book.FreqDist(book.text1)
-print(Fdist.N())
+# Fdist = book.FreqDist(book.text1)
+# print(Fdist.N())
+
+#Print the number of text that came in our sample
+# fdist = book.FreqDist(book.text1)
+# print("Count the number of this term in our sample", fdist.freq('monstrous'))
+
+#Print the number of text that came in our sample by another way
+# fdist = book.FreqDist(book.text1)
+# print("Count the text in our sample using this method: ", fdist['monstrous'])
+
+#Sorting the samples from the most frequent term up to unfrequent
+# fdist = book.FreqDist(book.text1)
+# print((fdist.keys()))
+
+
+
+
+
 
 
 
