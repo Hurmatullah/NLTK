@@ -85,6 +85,26 @@ import matplotlib.pyplot as plt
 #     else:
 #         print("This is punctuation")
 
+from nltk.corpus import gutenberg
+print(gutenberg.fileids())
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
